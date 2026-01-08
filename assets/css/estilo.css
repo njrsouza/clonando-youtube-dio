@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    height: 56px;
+    background: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+main {
+    background-color: beige;
+}
+
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.miniatura {
+    width: 160px;
+    height: 90px;
+    background-size: contain;
+    background-color: aqua;
+    margin-bottom: 10px;
+
+}
+
+#sino,
+#filmadora {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+#logo-youtube {
+    width: 90px;
+    height: 20px;
+}
+
+#tracos {
+    width: 24px;
+    height: 24px;
+}
+
+#search-box {
+    display: flex;
+    justify-content: center;
+    width: 404px;
+    height: 40px;
+    border: 1px solid #cccccc;
+}
+
+#pesquisa {
+    width: 57px;
+    border: 1px solid #cccccc;
+
+
+}
+
+#search-field {
+    width: 348px;
+    border: 1px solid #cccccc;
+}
+
+#foto-perfil {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    background-image: url("../images/tommy.png");
+    background-size: cover;
+    background-position: 33px;
+}
+
+#right,
+#left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
