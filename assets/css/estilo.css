@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto";
+}
+
 header {
     display: flex;
     height: 56px;
@@ -9,30 +15,35 @@ header {
 }
 
 main {
-    background-color: beige;
+    background-color: rgba(204, 204, 204, 0.5);
 }
 
 
-#sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.miniatura {
-    width: 160px;
-    height: 90px;
+#foto-canal {
+    display: inline;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background-image: url("../images/foto_perfil.jpg");
     background-size: contain;
-    background-color: aqua;
-    margin-bottom: 10px;
-
 }
 
-#sino,
-#filmadora {
-    width: 24px;
-    height: 24px;
+#inscreva-se {
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    background: #CC0000;
+    color: #FFFFFF;
+    border-color: transparent;
+    font-weight: 600;
 }
+
+
+
+
+
+
+
 
 
 
@@ -41,10 +52,7 @@ main {
     height: 20px;
 }
 
-#tracos {
-    width: 24px;
-    height: 24px;
-}
+
 
 #search-box {
     display: flex;
@@ -57,7 +65,10 @@ main {
 #pesquisa {
     width: 57px;
     border: 1px solid #cccccc;
-
+    background-image: url("../images/pesquisa.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
 
 }
 
@@ -80,4 +91,66 @@ main {
     display: flex;
     gap: 20px;
     align-items: center;
+}
+
+#video {
+    width: fit-content;
+    height: fit-content;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+h2 {
+    width: fit-content;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #515151;
+}
+
+#container {
+    display: inline-flex;
+    gap: 20px;
+    width: fit-content;
+    align-items: center;
+}
+
+#informacoes {
+    width: fit-content;
+}
+
+#informacoes-canal h4 {
+    margin-bottom: -5px;
+}
+
+.botoes {
+    border-color: transparent;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.botoes img,
+#tracos {
+    width: 24px;
+    height: 24px;
+
 }
