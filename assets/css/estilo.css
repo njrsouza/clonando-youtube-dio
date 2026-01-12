@@ -186,3 +186,43 @@ p {
 #descricoes {
     margin-top: 30px;
 }
+
+#video-um {
+    background-image: url(../images/thumb1.png);
+    background-size: cover;
+}
+
+#video-dois {
+    background-image: url(../images/thumb2.png);
+    background-size: cover;
+}
+
+#video-tres {
+    background-image: url(../images/thumb3.png);
+    background-size: cover;
+}
+
+#video-quatro {
+    background-image: url(../images/thumb4.png);
+    background-size: cover;
+}
+
+#video-cinco {
+    background-image: url(../images/thumb5.png);
+    background-size: cover;
+}
+
+#video-seis {
+    background-image: url(../images/thumb6.jpg);
+    background-size: cover;
+}
+
+#video-sete {
+    background-image: url(../images/thumb7.jpg);
+    background-size: cover;
+}
+
+#video-oito {
+    background-image: url(../images/thumb8.jpg);
+    background-size: cover;
+}
